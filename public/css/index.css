@@ -1,1 +1,98 @@
+.lesson-four-task-one button:hover {
+    color: red;      
+    background: yellow;
+}
 
+.link:hover + .title {
+    background-color: green;
+}
+
+.link:visited {
+    color: yellow;
+}
+
+#sidebar .link:link {
+    color: red;
+}
+
+.btn:active {
+    background-color: blue;
+}
+
+.btn:focus {
+    color: orange;
+    background-color: orange;
+}
+
+#target:target {
+    color: white;
+    background-color: green;
+}
+
+
+#checkbox:checked ~ #target {
+    color: white;
+    background-color: blue;
+}
+
+:lang(uk) {
+    color: blue;
+}
+
+:enabled {
+    color: red;
+    background-color: yellow;
+}
+
+:disabled {
+    background-color: yellow;
+}
+
+input:not([readonly]) {
+    background-color: yellow;
+}
+
+input[readonly] {
+    background-color: yellow;
+}
+
+
+input:valid {
+    background-color: green;
+}
+
+input:invalid {
+    background-color: red;
+}
+
+textarea:optional {
+    background-color: red; 
+}
+
+input[type="number"]:out-of-range {
+    color: red; 
+}
+
+input[type="number"]:in-range {
+    color: red; 
+}
+
+
+
+input::placeholder {
+    background-color: red; }
+
+input:placeholder-shown::placeholder {
+    background-color: transparent;
+}
+
+
+.btn-group:focus-within button {
+    color: white;  
+    background-color: yellow;
+}
+
+
+input:invalid {
+  background-color: red;
+}
