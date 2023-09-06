@@ -1,6 +1,8 @@
-.lesson-four-task-one button:hover {
+
+
+.lesson-four-task-one .btn:hover {
     color: red;      
-    background: yellow;
+    background-color: yellow;
 }
 
 .link:hover + .title {
