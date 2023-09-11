@@ -5,96 +5,111 @@
     background-color: yellow;
 }
 
-.link:hover + .title {
+
+.lesson-four-task-two .link:hover + .title {
     background-color: green;
 }
 
-.link:visited {
+
+.lesson-four-task-three .link:visited {
     color: yellow;
 }
 
-#sidebar .link:link {
+
+.lesson-four-task-four #sidebar .link:link {
     color: red;
 }
 
-.btn:active {
+
+.lesson-four-task-five .btn:active {
     background-color: blue;
 }
 
-.btn:focus {
+
+.lesson-four-task-six .btn:focus {
     color: orange;
     background-color: orange;
 }
 
-#target:target {
+
+.lesson-four-task-seven #target:target {
     color: white;
     background-color: green;
 }
 
 
-#checkbox:checked ~ #target {
+.lesson-four-task-eight #checkbox:checked ~ #target {
     color: white;
     background-color: blue;
 }
 
-:lang(uk) {
+
+.lesson-four-task-nine :lang(uk) {
     color: blue;
 }
 
-:enabled {
+
+.lesson-four-task-ten :enabled {
     color: red;
     background-color: yellow;
 }
 
-:disabled {
-    background-color: yellow;
-}
 
-input:not([readonly]) {
-    background-color: yellow;
-}
-
-input[readonly] {
+.lesson-four-task-eleven :disabled {
     background-color: yellow;
 }
 
 
-input:valid {
+.lesson-four-task-twelve input:not([readonly]) {
+    background-color: yellow;
+}
+
+
+.lesson-four-task-thirteen input[readonly] {
+    background-color: yellow;
+}
+
+
+.lesson-four-task-fourteen input:valid {
     background-color: green;
 }
 
-input:invalid {
+.lesson-four-task-fifteen input:invalid {
     background-color: red;
 }
 
-textarea:optional {
+
+.lesson-four-task-sixteen textarea:optional {
     background-color: red; 
 }
 
-input[type="number"]:out-of-range {
+
+.lesson-four-task-seventeen input[type="number"]:out-of-range {
     color: red; 
 }
 
-input[type="number"]:in-range {
+
+.lesson-four-task-eighteen input[type="number"]:in-range {
     color: red; 
 }
 
 
+.lesson-four-task-nineteen input::placeholder {
+    background-color: red;
+}
 
-input::placeholder {
-    background-color: red; }
 
-input:placeholder-shown::placeholder {
+.lesson-four-task-twenty input:placeholder-shown::placeholder {
     background-color: transparent;
 }
 
 
-.btn-group:focus-within button {
-    color: white;  
+.lesson-four-task-twenty .btn-group:focus-within button {
+    color: white;
     background-color: yellow;
 }
 
 
-input:invalid {
-  background-color: red;
+.lesson-four-task-twenty input:invalid {
+    background-color: red;
 }
